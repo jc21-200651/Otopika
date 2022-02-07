@@ -21,6 +21,7 @@ public class OtoKadai01  {
 			oto.lightAll();
 			oto.sleep();
 			oto.lightOff();
+			oto.sleep();
 		}
 
 	}
