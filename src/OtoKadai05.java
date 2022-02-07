@@ -17,7 +17,7 @@ public class OtoKadai05  {
 	public static void main(String[] args) {
 		Otopika oto1 = new Otopika();
 		Otopika oto2 = new Otopika();
-		
+
 		oto1.powerOn();
 		oto2.powerOn();
 		while(true) {
@@ -28,7 +28,8 @@ public class OtoKadai05  {
 			oto1.lightRed();
 			oto1.sleep();
 			oto1.lightOff();
-			
+			oto1.sleep();
+
 			oto2.lightGreen();
 			oto2.sleep();
 			oto2.lightYellow();
@@ -36,12 +37,13 @@ public class OtoKadai05  {
 			oto2.lightRed();
 			oto2.sleep();
 			oto2.lightOff();
-			
-			
-			
-			
-			
-			
+			oto2.sleep();
+
+
+
+
+
+
 		}
 
 	}
